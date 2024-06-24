@@ -12,11 +12,53 @@ body {
     /* Não altere nada aqui dentro */
     height: 100vh;
     width: 100%;
+    background-color: white;
 }
 
 :root {
     --blue: #004587;
-    --gray: #CCCCCC;
+    --gray: #CCCCCC; 
 }
 
 /* Escreva a partir daqui */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caixa {
+    background-color: var(--blue);
+    color: white;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.centro {
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.navbar-item {
+    color: var(--gray);
+}
+
+.caixa-fale{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: var(--gray);
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+}
+
+.ins {
+    background-color: var(--blue);
+    color: white;
+}
